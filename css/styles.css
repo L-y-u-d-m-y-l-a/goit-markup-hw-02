@@ -24,8 +24,7 @@ a {
 }
 
 .header-logo:hover,
-.header-logo:focus,
-.header-logo:active{
+.header-logo:focus {
     color: #404BBF;
 }
 
@@ -43,7 +42,7 @@ a {
 
 .nav-link:hover,
 .nav-link:focus {
-    background-color: #404BBF;
+    color: #404BBF;
 }
 
 .address {
@@ -90,7 +89,7 @@ a {
 
 .hero-btn:hover,
 .hero-btn:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 /*===========Hidden h2==========*/
@@ -118,6 +117,10 @@ a {
     background-color: #F4F4FD;
 }
 
+.team-item {
+    background-color: #FFF;
+}
+
 .team-title {
     color: #2E2F42;
     text-align: center;
@@ -126,7 +129,6 @@ a {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    background-color: #FFFFFF;
 }
 
 .team-subtitle {
